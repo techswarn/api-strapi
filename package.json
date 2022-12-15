@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "strapi start --host 0.0.0.0 --port 3306",
     "build": "strapi build",
     "strapi": "strapi"
   },
